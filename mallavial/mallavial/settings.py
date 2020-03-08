@@ -30,8 +30,13 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # agregados
+    'material.admin',
+    'material.admin.default',
+    # fin_agregados
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
